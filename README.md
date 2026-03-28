@@ -74,10 +74,20 @@ ip default-gateway 192.168.10.1
 
 #VLANs Configurations
 configure terminal
-** Itutuloy **
+vlan 10 
+name Management
 
+vlan 20
+name Sales
 
+vlan 30
+name Operations
 
+vlan 999
+name Parking_Lot
+
+vlan 1000
+native VLAN
 
 #Interface assigning ports
 configure terminal
