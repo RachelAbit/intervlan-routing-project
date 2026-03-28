@@ -1,0 +1,36 @@
+Router Config
+
+1. no ip domain-lookup - it is used for disabling DNS lookup
+functionality.
+
+2.enable secret class - to set encrypted password
+
+3. line console 0     - to set a password in console line
+   password cisco
+   login
+
+4. line vty 0 4       - to set a password for remote login
+   password cisco
+   login
+
+5. service password encryption - to encrypt all the passwords
+
+6. banner motd #Unauthorized Access is prohibited!#
+
+Switch Config 
+
+1.Same lang sa Router ang pag config ng device(basic)
+
+2.VLAN creation
+
+3. Creating management interface for both switch
+
+4. Assigning ports to VLANs
+
+5. Configure an 802.1Q Trunk Between the switches
+
+6. Configure the trunk between switch and router
+
+7. Ping all the computers
+
+
